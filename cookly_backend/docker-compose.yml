@@ -15,17 +15,17 @@ services:
     image: postgres:17
     container_name: backend_service.db
     command: -p 5432
-    ports:
-      - "5432:5432"
+#    ports:
+#      - "5432:5432"
     expose:
       - 5432
     restart: always
     env_file:
       - .env
-    environment:
-      POSTGRES_PASSWORD: ${PG_PWD}
     volumes:
       - db-data:/var/lib/postgresql/data
+      - ./auth_service/init_auth_db.sql:/docker-entrypoint-initdb.d/01_init_auth_db.sql
+      - ./recipe_backend/init_db.sql:/docker-entrypoint-initdb.d/02_init_recipe_db.sql
     healthcheck:
       test: [ "CMD-SHELL", "pg_isready -d $${POSTGRES_DB} -U $${POSTGRES_USER}" ]
       interval: 10s
@@ -58,10 +58,10 @@ services:
     container_name: backend_service.api
     env_file:
       - .env
-    #    build:
-    #      context: auth_service
-    #      dockerfile: Dockerfile
-    image: menoitami/backend_service.api
+    build:
+      context: auth_service
+      dockerfile: Dockerfile
+#    image: menoitami/backend_service.api
     command: [ "sh", "/backend-service.auth_service/docker/serve.sh" ]
     expose:
       - 8000
@@ -80,6 +80,7 @@ services:
       - "8000:8000"
     volumes:
       - ./certs:/backend-service.auth_service/certs
+      - - ./auth_service/src:/backend-service.auth_service/src
   #    logging: *default-logging
 
   nats:
@@ -93,18 +94,35 @@ services:
   notification_app:
     env_file:
       - .env
-#    image: backend_service.notification_app
-    image: menoitami/backend_service.notification_app
-#    build:
-#      context: notification/
+#    image: menoitami/backend_service.notification_app
+    build:
+      context: notification/
     command: [ "sh", "/notification_app/docker/app.sh" ]
     depends_on:
       - nats
 
+  recipe_backend:
+    container_name: recipe_backend.api
+    build:
+      context: recipe_backend
+    command: [ "sh", "/backend/docker/serve.sh" ]
+    environment:
+      - DEBUG=1
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./certs/jwt-public.pem:/certs/jwt-public.pem
+      - ./recipe_backend:/backend
+    depends_on:
+      - redis
+      - db
+
   db_migration:
     profiles: [ "setup", "migration" ]
     container_name: backend_service.db_migration
-    image: menoitami/backend_service.api
+    build:
+      context: auth_service
+      dockerfile: Dockerfile
     restart: on-failure
     depends_on:
       db:
@@ -112,6 +130,22 @@ services:
     env_file:
       - .env
     command: [ "sh", "/backend-service.auth_service/docker/migrate.sh" ]
+
+  recipe_db_migration:
+    profiles: [ "setup", "migration" ]
+    container_name: recipe_backend.db_migration
+    build:
+      context: recipe_backend
+      dockerfile: Dockerfile
+    restart: on-failure
+    environment:
+      - CSV_SEED_DIR=/backend/seed_data
+    depends_on:
+      db:
+        condition: service_healthy
+    command: [ "sh", "/backend/docker/migrate.sh" ]
+    volumes:
+      - ./certs/jwt-public.pem:/certs/jwt-public.pem
 
   minio:
     image: minio/minio
@@ -136,18 +170,24 @@ services:
       - minio
     env_file:
       - .env
+    environment:
+      - MINIO_RECIPE_BUCKET_NAME=recipes
+      - MINIO_RECIPE_STEP_BUCKET_NAME=recipe-steps
     entrypoint: >
       /bin/sh -c "
-      sleep 10;
+      sleep 5;
       mc alias set $${MINIO_ALIAS} $${MINIO_URL} $${MINIO_ACCESS_KEY} $${MINIO_SECRET_KEY};
-      mc mb $${MINIO_ALIAS}/$${MINIO_USER_AVATAR_BUCKET_NAME} || true;
-      mc anonymous set download $${MINIO_ALIAS}/$${MINIO_USER_AVATAR_BUCKET_NAME} || true;
-      mc mb $${MINIO_ALIAS}/$${MINIO_CLIENT_AVATAR_BUCKET_NAME} || true;
-      mc anonymous set download $${MINIO_ALIAS}/$${MINIO_CLIENT_AVATAR_BUCKET_NAME} || true;
+
+      mc mb $${MINIO_ALIAS}/$${MINIO_RECIPE_BUCKET_NAME} || true;
+      mc anonymous set download $${MINIO_ALIAS}/$${MINIO_RECIPE_BUCKET_NAME} || true;
+      mc mb $${MINIO_ALIAS}/$${MINIO_RECIPE_STEP_BUCKET_NAME} || true;
+      mc anonymous set download $${MINIO_ALIAS}/$${MINIO_RECIPE_STEP_BUCKET_NAME} || true;
       "
 
   nginx:
-    image: menoitami/custom-openresty-jwt
+#    image: menoitami/custom-openresty-jwt
+    build:
+      context: nginx
     container_name: nginx_app
     ports:
       - "80:80"
@@ -262,7 +302,14 @@ services:
       - ./certbot/www:/var/www/certbot
     depends_on:
       - nginx
-    command: certonly --webroot -w /var/www/certbot -d menoitami.ru --email your@email.com --agree-tos --non-interactive
+    command: >
+      certonly --webroot
+      -w /var/www/certbot
+      -d menoitamii.ru
+      -d recipes-api.menoitamii.ru
+      --email your@email.com
+      --agree-tos
+      --non-interactive
 
 volumes:
   db-data:
