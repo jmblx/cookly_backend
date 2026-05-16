@@ -80,7 +80,7 @@ services:
       - "8000:8000"
     volumes:
       - ./certs:/backend-service.auth_service/certs
-      - - ./auth_service/src:/backend-service.auth_service/src
+      - ./auth_service/src:/backend-service.auth_service/src
   #    logging: *default-logging
 
   nats:
