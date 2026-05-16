@@ -1,9 +1,6 @@
 import os
 from dataclasses import dataclass
 
-from dotenv import load_dotenv
-
-load_dotenv(r"D:\vs\RKSI2024\auth-service\.env")
 
 DB_HOST = os.environ.get("DB_HOST")
 DB_PORT = os.environ.get("DB_PORT")
@@ -15,7 +12,6 @@ DATABASE_URI = os.environ.get(
     f"postgresql+asyncpg://"
     f"{POSTGRES_USER}:{POSTGRES_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}",
 )
-print(DATABASE_URI)
 
 
 @dataclass(frozen=True)
