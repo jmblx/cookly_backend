@@ -108,8 +108,8 @@ services:
     command: [ "sh", "/backend/docker/serve.sh" ]
     environment:
       - DEBUG=1
-    ports:
-      - "8080:8080"
+    expose:
+      - 8080
     volumes:
       - ./certs/jwt-public.pem:/certs/jwt-public.pem
       - ./recipe_backend:/backend
