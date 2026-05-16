@@ -1,0 +1,88 @@
+.url-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.url-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.url-list input {
+    flex-grow: 1;
+}
+
+.url-list button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.url-list button:hover {
+    background-color: #cc0000;
+}
+
+.add-url-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.add-url-btn:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+.editable-field {
+    margin-bottom: 15px;
+}
+
+.editable-field label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.edit-icon-container {
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.edit-icon-container:hover {
+    transform: scale(1.2);
+}
+
+.edit-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.create-mode .form-control,
+.create-mode .add-url-btn {
+    /* В режиме создания все поля сразу доступны для редактирования */
+    disabled: false;
+}
+
+.avatar-wrapper {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.avatar-wrapper img.edit-icon {
+    width: 30px;
+    height: 30px;
+    transform: translate(50%, 50%);
+}

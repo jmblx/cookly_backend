@@ -1,0 +1,77 @@
+.role-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    height: 100%;
+}
+
+
+.roles-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.role-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.role-name-container {
+    flex-grow: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+.editable-field {
+    margin-bottom: 15px;
+}
+
+.editable-field label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.scope-checkboxes {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.new-role-section {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.disabled-role {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.disabled-section {
+    color: #999;
+}
+
+.create-mode .form-control {
+    disabled: false;
+}
+
+.empty-roles-message {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+    font-style: italic;
+}

@@ -1,0 +1,84 @@
+.admin-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #343a40;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.admin-panel a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.admin-panel a:hover {
+    background-color: #495057;
+}
+
+/* Стилизуем активную вкладку */
+.admin-panel a.active-tab {
+    background-color: #495057;
+}
+
+/* Убираем инлайновый gap у правой части */
+.admin-panel .right {
+  display: flex;
+  align-items: center;
+  /* gap: убрать или переопределить */
+}
+
+/* Универсальный стиль для всех иконок панели */
+.admin-panel .panel-icon {
+  width: 32px;
+  height: 32px;
+  margin: 0 12px; /* по 12px слева и справа — регулируй под ваш вкус */
+  cursor: pointer;
+  object-fit: cover; /* если это <img> */
+}
+
+/* Если нужно чуть больше “кликабельной” зоны */
+.admin-panel a.profile-link,
+.admin-panel button#logout-button,
+.admin-panel .account-switcher {
+  padding: 4px; /* добавим 4px вокруг, чтобы зоны были одинаковы */
+  border-radius: 4px;
+}
+
+.admin-panel a.profile-link:hover,
+.admin-panel button#logout-button:hover,
+.admin-panel .account-switcher:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.logout-button img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(0) saturate(100%) invert(27%) sepia(96%) saturate(2543%) hue-rotate(203deg) brightness(100%) contrast(101%);
+}
+
+body {
+    padding-top: 60px;
+}
+
+.account-switcher img#user-panel-avatar:hover {
+    opacity: 0.8;
+}
+
+.account-menu .account-item:hover {
+    background-color: #f1f1f1;
+}

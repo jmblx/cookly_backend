@@ -1,0 +1,39 @@
+# Каталоги MinIO
+minio-data/
+minio-config/
+
+# Файлы Python
+*.pyc
+__pycache__/
+
+# IDE
+.idea/
+
+# Должно работать в любых вложенных папках:
+certbot/conf/
+**/certbot/conf/
+certbot/www/**/*
+
+nginx-logs/
+**/nginx-logs/
+
+certs/
+**/certs/
+
+# .env файлы
+.env
+.env-prod
+**/.env
+**/.env-prod
+
+# nginx-local.conf (файл, а не папка)
+nginx-local.conf
+**/nginx-local.conf
+
+# venv
+venv/
+**/venv/
+
+# config.toml
+config.toml
+**/config.toml

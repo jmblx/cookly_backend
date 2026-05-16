@@ -1,0 +1,18 @@
+.logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+}
+
+.logout-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: brightness(0) saturate(100%) invert(27%) sepia(96%) saturate(2543%) hue-rotate(203deg) brightness(100%) contrast(101%);
+}

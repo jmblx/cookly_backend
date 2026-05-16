@@ -1,0 +1,72 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: |
+      !contains(github.event.head_commit.message, 'skip b')
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+
+      - name: Build and Push API Service
+        run: |
+          cd ./auth-service/auth_service
+          docker build \
+            --pull \
+            --no-cache \
+            -t backend_service.api:latest .
+          
+          docker tag backend_service.api:latest menoitami/backend_service.api:latest
+          
+          docker push menoitami/backend_service.api:latest
+
+      - name: Build and Push Notification Service
+        run: |
+          cd ./auth-service/notification
+          docker build \
+            --pull \
+            --no-cache \
+            -t backend_service.notification_app:latest .
+          
+          docker tag backend_service.notification_app:latest menoitami/backend_service.notification_app:latest
+          
+          docker push menoitami/backend_service.notification_app:latest
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: |
+      always() && (needs.build.result == 'success' || needs.build.result == 'skipped')
+    steps:
+      - name: Deploy to Server
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST_IP }}
+          username: ${{ secrets.USER_NAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          script: |
+            cd OpenID-provider/auth-service/
+            git pull origin main
+
+            echo "${{ secrets.ENV_PROD_FILE }}" > .env
+
+            docker compose down
+            docker compose pull
+            docker compose up -d --force-recreate
+            docker image prune -af

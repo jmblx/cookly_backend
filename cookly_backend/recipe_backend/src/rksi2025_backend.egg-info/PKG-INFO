@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: rksi2025_backend
+Version: 0.1.0
+Summary: Бэтнетикс case
+Requires-Python: >=3.12
+Requires-Dist: fastapi[all]>=0.124.0
+Requires-Dist: asyncpg<0.31.0,>=0.30.0
+Requires-Dist: alembic<2.0.0,>=1.13.3
+Requires-Dist: dishka<2.0.0,>=1.7.2
+Requires-Dist: gunicorn<24.0.0,>=23.0.0
+Requires-Dist: redis<6.0.0,>=5.2.0
+Requires-Dist: pytz>=2025.2
+Requires-Dist: colorlog>=6.9.0
+Requires-Dist: sqlalchemy>=2.0.48
+Requires-Dist: sqladmin[full]>=0.24.0
+Provides-Extra: dev
+Requires-Dist: setuptools<76.0.0,>=75.2.0; extra == "dev"
+Requires-Dist: autoflake<3.0.0,>=2.3.1; extra == "dev"
+Requires-Dist: ruff<0.7.0,>=0.6.0; extra == "dev"
+Requires-Dist: black<25.0.0,>=24.8.0; extra == "dev"
+Requires-Dist: pre-commit<4.0.0,>=3.8.0; extra == "dev"
+Requires-Dist: uvicorn>=0.34.0; extra == "dev"
+Requires-Dist: python-dotenv>=1.1.0; extra == "dev"
+Provides-Extra: test
+Requires-Dist: docker>=7.1.0; extra == "test"
+Requires-Dist: pytest>=8.3.2; extra == "test"
+Requires-Dist: pytest-asyncio>=0.24.0; extra == "test"
+Requires-Dist: psycopg2-binary>=2.9.8; extra == "test"

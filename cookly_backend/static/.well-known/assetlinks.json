@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "bob.colbaskin.hackatontemplate",
+    "sha256_cert_fingerprints":
+    ["95:51:CC:4A:E9:D5:E3:30:B1:8F:6C:02:DA:72:D9:AC:81:57:1E:80:86:75:37:67:3B:5F:CC:CA:FF:5C:F1:5E"]
+  }
+}]

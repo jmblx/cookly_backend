@@ -1,0 +1,30 @@
+[global]
+debug = false
+secret = "f633e5060cbefcf3d80ff2bec6de0a0dbeb98e71fd99f7a0d59928ac6454e636"
+
+[gunicorn]
+bind = "0.0.0.0:8080"
+workers = 2
+timeout = 30
+worker_class = "uvicorn.workers.UvicornWorker"
+
+[database]
+host = "localhost"
+port = "5432"
+name = "rksi2025"
+user = "postgres"
+password = "postgres"
+
+[redis]
+host = "localhost"
+port = 6379
+
+[smtp]
+smtp_password = "aaaa bbbb cccc dddd"
+smtp_user = "rksi@hack.ru"
+smtp_host = "smtp.gmail.com"
+smtp_port = 465
+
+[admin]
+admin_passwords = "admin@mail.ru"
+admin_emails = "admin"

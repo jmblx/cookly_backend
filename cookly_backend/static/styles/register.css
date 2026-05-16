@@ -1,0 +1,22 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f6f5f7;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.client-name span {
+    font-size: 18px;
+    color: #4fadf3;
+    font-weight: 600;
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+.form-container input:focus {
+    box-shadow: 0 0 6px rgba(79, 173, 243, 0.8);
+    outline: none;
+}

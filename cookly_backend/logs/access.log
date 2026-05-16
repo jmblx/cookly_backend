@@ -1,0 +1,298 @@
+192.168.192.1 - - [26/Oct/2024:11:09:24 +0000] "GET /api/docs/ HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:12:01 +0000] "GET /api/docs/ HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:12:01 +0000] "GET /favicon.ico HTTP/1.1" 404 153 "http://localhost/api/docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.192.1 - - [26/Oct/2024:11:12:01 +0000] "GET /api/docs/ HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:12:02 +0000] "GET /api/docs/ HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:12:02 +0000] "GET /favicon.ico HTTP/1.1" 404 153 "http://localhost/api/docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.192.1 - - [26/Oct/2024:11:12:02 +0000] "GET /api/docs/ HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:12:02 +0000] "GET /api/docs/ HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:12:02 +0000] "GET /api/docs/ HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:12:19 +0000] "GET /docs/ HTTP/1.1" 404 153 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.192.1 - - [26/Oct/2024:11:12:25 +0000] "GET /api/docs/ HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:17:49 +0000] "GET /api/docs/ HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app:8000
+192.168.192.1 - - [26/Oct/2024:11:17:50 +0000] "GET /api/docs/ HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app:8000
+192.168.192.1 - - [26/Oct/2024:11:17:53 +0000] "GET /api/docs/ HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app:8000
+192.168.192.1 - - [26/Oct/2024:11:17:53 +0000] "GET /favicon.ico HTTP/1.1" 404 153 "http://localhost/api/docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.192.1 - - [26/Oct/2024:11:19:06 +0000] "GET /api/docs/ HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:21:18 +0000] "GET /api/docs/ HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:21:18 +0000] "GET /favicon.ico HTTP/1.1" 404 153 "http://localhost/api/docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.192.1 - - [26/Oct/2024:11:21:40 +0000] "GET /api/docs/ HTTP/1.1" 307 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:21:40 +0000] "GET /api/docs HTTP/1.1" 200 939 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:21:41 +0000] "GET /api/openapi.json HTTP/1.1" 200 3143 "http://localhost/api/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:21:45 +0000] "GET /api/docs HTTP/1.1" 200 939 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:21:45 +0000] "GET /api/openapi.json HTTP/1.1" 200 3143 "http://localhost/api/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:21:47 +0000] "GET /api/docs HTTP/1.1" 200 939 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:21:47 +0000] "GET /api/openapi.json HTTP/1.1" 200 3143 "http://localhost/api/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:22:13 +0000] "GET /app/docs HTTP/1.1" 404 153 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.192.1 - - [26/Oct/2024:11:22:13 +0000] "GET /favicon.ico HTTP/1.1" 404 153 "http://localhost/app/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.192.1 - - [26/Oct/2024:11:22:16 +0000] "GET /app/docs HTTP/1.1" 404 153 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.192.1 - - [26/Oct/2024:11:22:16 +0000] "GET /favicon.ico HTTP/1.1" 404 153 "http://localhost/app/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.192.1 - - [26/Oct/2024:11:22:16 +0000] "GET /app/docs HTTP/1.1" 404 153 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.192.1 - - [26/Oct/2024:11:22:51 +0000] "GET /app/docs HTTP/1.1" 404 153 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.192.1 - - [26/Oct/2024:11:22:51 +0000] "GET /favicon.ico HTTP/1.1" 404 153 "http://localhost/app/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.192.1 - - [26/Oct/2024:11:23:17 +0000] "GET /receipt/docs HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: receipt_api
+192.168.192.1 - - [26/Oct/2024:11:25:10 +0000] "GET /receipt/docs HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: receipt_api
+192.168.192.1 - - [26/Oct/2024:11:25:10 +0000] "GET /favicon.ico HTTP/1.1" 404 153 "http://localhost/receipt/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.192.1 - - [26/Oct/2024:11:25:10 +0000] "GET /receipt/docs HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: receipt_api
+192.168.192.1 - - [26/Oct/2024:11:25:21 +0000] "GET /receipt/docs HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: receipt_api
+192.168.192.1 - - [26/Oct/2024:11:25:21 +0000] "GET /favicon.ico HTTP/1.1" 404 153 "http://localhost/receipt/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.192.1 - - [26/Oct/2024:11:25:59 +0000] "GET /receipt/docs HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: receipt_api
+192.168.192.1 - - [26/Oct/2024:11:25:59 +0000] "GET /favicon.ico HTTP/1.1" 404 153 "http://localhost/receipt/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.192.1 - - [26/Oct/2024:11:28:19 +0000] "GET /receipt/docs HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: receipt_api
+192.168.192.1 - - [26/Oct/2024:11:28:20 +0000] "GET /receipt/docs HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: receipt_api
+192.168.192.1 - - [26/Oct/2024:11:28:20 +0000] "GET /receipt/docs HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: receipt_api
+192.168.192.1 - - [26/Oct/2024:11:28:20 +0000] "GET /favicon.ico HTTP/1.1" 404 153 "http://localhost/receipt/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.192.1 - - [26/Oct/2024:11:28:21 +0000] "GET /receipt/docs HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: receipt_api
+192.168.192.1 - - [26/Oct/2024:11:28:23 +0000] "GET /api/docs HTTP/1.1" 200 939 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:28:23 +0000] "GET /api/openapi.json HTTP/1.1" 200 3143 "http://localhost/api/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:28:24 +0000] "GET /api/docs HTTP/1.1" 200 939 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:28:24 +0000] "GET /api/openapi.json HTTP/1.1" 200 3143 "http://localhost/api/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:28:25 +0000] "GET /api/docs HTTP/1.1" 200 939 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:28:25 +0000] "GET /api/openapi.json HTTP/1.1" 200 3143 "http://localhost/api/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.192.1 - - [26/Oct/2024:11:28:28 +0000] "GET /receipt/docs HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: receipt_api
+192.168.192.1 - - [26/Oct/2024:11:28:28 +0000] "GET /favicon.ico HTTP/1.1" 404 153 "http://localhost/receipt/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.192.1 - - [26/Oct/2024:11:28:41 +0000] "GET /receipt/docs/docs HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: receipt_api
+192.168.208.1 - - [26/Oct/2024:11:29:49 +0000] "GET /api/docs HTTP/1.1" 200 939 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.208.1 - - [26/Oct/2024:11:29:49 +0000] "GET /api/openapi.json HTTP/1.1" 200 3143 "http://localhost/api/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.208.1 - - [26/Oct/2024:11:29:49 +0000] "GET /api/docs HTTP/1.1" 200 939 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.208.1 - - [26/Oct/2024:11:29:50 +0000] "GET /api/openapi.json HTTP/1.1" 200 3143 "http://localhost/api/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.208.1 - - [26/Oct/2024:11:29:51 +0000] "GET /receipt/docs/docs HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: receipt_api
+192.168.208.1 - - [26/Oct/2024:11:29:51 +0000] "GET /favicon.ico HTTP/1.1" 404 153 "http://localhost/receipt/docs/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.208.1 - - [26/Oct/2024:11:34:59 +0000] "GET /receipt/docs/docs HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: app
+192.168.208.1 - - [26/Oct/2024:11:35:00 +0000] "GET /receipt/docs/docs HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: app
+192.168.208.1 - - [26/Oct/2024:11:35:01 +0000] "GET /receipt/docs/docs HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: app
+192.168.208.1 - - [26/Oct/2024:11:35:03 +0000] "GET /receipt/docs HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: app
+192.168.208.1 - - [26/Oct/2024:11:35:05 +0000] "GET /receipt/docs HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: app
+192.168.208.1 - - [26/Oct/2024:11:35:20 +0000] "GET /api/docs HTTP/1.1" 200 939 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.208.1 - - [26/Oct/2024:11:35:21 +0000] "GET /api/openapi.json HTTP/1.1" 200 3143 "http://localhost/api/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:39:25 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:39:26 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:39:27 +0000] "GET /api/docs HTTP/1.1" 200 939 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:39:27 +0000] "GET /api/openapi.json HTTP/1.1" 200 3143 "http://localhost/api/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:39:29 +0000] "GET /receipt/docs HTTP/1.1" 200 973 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: app
+192.168.224.1 - - [26/Oct/2024:11:39:30 +0000] "GET /receipt/openapi.json HTTP/1.1" 200 3378 "http://localhost/receipt/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: app
+192.168.224.1 - - [26/Oct/2024:11:43:30 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:44:02 +0000] "GET /api/docs HTTP/1.1" 200 939 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:44:02 +0000] "GET /api/openapi.json HTTP/1.1" 200 3143 "http://localhost/api/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:44:09 +0000] "GET /api/ HTTP/1.1" 200 17 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:44:16 +0000] "GET /api/docs HTTP/1.1" 200 939 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:44:16 +0000] "GET /api/openapi.json HTTP/1.1" 200 3143 "http://localhost/api/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:44:41 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:45:50 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:46:01 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:46:04 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:46:05 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:46:06 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:46:06 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 200 2 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:46:51 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:46:51 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:46:52 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:46:53 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:46:54 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:47:44 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:47:45 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:47:45 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:47:46 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:47:47 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:47:47 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:47:48 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:47:49 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:47:50 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:47:51 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:50:32 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:50:33 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:51:05 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:51:05 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:51:06 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:51:07 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:51:07 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:51:08 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:51:09 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:51:09 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:51:10 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 200 2 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:53:00 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:53:02 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:54:26 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:54:27 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:54:28 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:54:29 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:54:29 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:54:30 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:54:31 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:55:31 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:55:32 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:55:45 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:55:46 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:55:47 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:55:48 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:55:49 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:55:49 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06%40mail.ru HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:56:29 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:56:32 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:58:46 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:11:58:47 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:05:11 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 422 94 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:43 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:45 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:46 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:46 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:47 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:48 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:49 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:49 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:50 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:51 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:52 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:53 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:54 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:55 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:56 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:56 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:57 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:58 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:58 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:06:59 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:07:03 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:07:09 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:07:10 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:07:11 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:07:11 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:12:25 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 401 75 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:34:17 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:34:19 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:34:20 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:34:21 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:34:21 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:12:34:22 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:13:28:49 +0000] "POST /api/purchasers/verify_and_request_code?email=zhora.zhilin.06@mail.ru HTTP/1.1" 422 178 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:13:29:09 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 422 178 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:13:30:08 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:13:30:09 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 422 178 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:13:31:36 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 404 55 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:31:29 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:31:29 +0000] "GET /favicon.ico HTTP/1.1" 404 153 "http://localhost/api/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.224.1 - - [26/Oct/2024:14:31:30 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:31:31 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:31:31 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:31:32 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:31:32 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:31:32 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:31:33 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:31:34 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:31:35 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:31:35 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:31:36 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:31:36 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:31:37 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:32:09 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:32:10 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:32:11 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:33:15 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:35:13 +0000] "GET /api/docs HTTP/1.1" 200 939 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:35:14 +0000] "GET /api/openapi.json HTTP/1.1" 200 3047 "http://localhost/api/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:36:58 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:36:58 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:36:59 +0000] "GET /api/docs HTTP/1.1" 502 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:37:02 +0000] "GET /api/docs HTTP/1.1" 200 939 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:37:02 +0000] "GET /api/openapi.json HTTP/1.1" 200 3788 "http://localhost/api/docs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:37:56 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:48:07 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:50:10 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:50:11 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:51:56 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:14:56:23 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:00:15 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:00:18 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:02:25 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:04:37 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:04:38 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:04:39 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:04:40 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:04:41 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:04:41 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:04:42 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:04:46 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:10:21 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:11:12 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:11:18 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:12:51 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:16:17 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:16:19 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:18:06 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:18:08 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:18:08 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:18:09 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:18:10 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:18:11 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:18:11 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:18:15 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:18:54 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:22:58 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:22:59 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:23:00 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:23:01 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:23:04 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:29:22 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:29:23 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:29:24 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:29:25 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:29:26 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:31:43 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:35:57 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:38:09 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:38:17 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:41:12 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:41:15 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:41:15 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:41:16 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:42:18 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:42:23 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:42:25 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:46:31 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:47:15 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:47:16 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:48:37 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:48:39 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:48:40 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:53:18 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:15:57:31 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:16:04:32 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:16:09:49 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:16:12:15 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:16:12:34 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:16:12:37 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:16:28:24 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:16:30:35 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:16:30:36 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:16:31:02 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:16:31:05 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:16:33:50 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:16:33:55 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.224.1 - - [26/Oct/2024:16:34:02 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:16:40:31 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:16:40:32 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:16:45:47 +0000] "POST /api/user HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:16:50:53 +0000] "POST /api/user HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:16:50:55 +0000] "POST /api/user HTTP/1.1" 200 30 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:02:40 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:05:07 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:05:12 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:06:44 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:07:49 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:08:35 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:08:35 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:08:36 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:08:37 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:10:42 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:10:43 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:10:43 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:10:44 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 502 157 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:10:49 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 500 21 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:28:00 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:28:20 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:28:21 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:28:23 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:31:46 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:31:47 +0000] "POST /api/purchasers/verify_and_request_code HTTP/1.1" 404 51 "-" "PostmanRuntime/7.42.0" "-" to: fastapi_app
+192.168.240.1 - - [26/Oct/2024:17:40:44 +0000] "GET / HTTP/1.1" 404 153 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -
+192.168.240.1 - - [26/Oct/2024:17:40:44 +0000] "GET /favicon.ico HTTP/1.1" 404 153 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" "-" to: -

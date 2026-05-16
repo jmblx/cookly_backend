@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px 50px;
+    margin-top: 140px;
+}
+
+/* Общие элементы форм */
+.form-container form {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+label {
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    background: #fff;
+    padding: 0 5px;
+}
+
+input {
+    background: #eee;
+    border: none;
+    padding: 12px 15px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+button {
+    border-radius: 20px;
+    border: 1px solid #ff4b2b;
+    background: #ff445c;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Общие элементы авторизации */
+.yandex-auth-btn {
+    margin-top: 15px;
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.yandex-auth-btn i {
+    margin-right: 10px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.divider::before, .divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+}
+
+.divider-text {
+    padding: 0 10px;
+    color: #777;
+}
+
+/* Общие ссылки */
+.link a {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.editable-field {
+    margin-bottom: 15px;
+}
+
+.editable-field label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.create-mode .form-control {
+    disabled: false;
+}

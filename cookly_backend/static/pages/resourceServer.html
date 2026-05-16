@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управление ресурсным сервером</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/resourceServer.css">
+    <link rel="stylesheet" href="/styles/adminPanel.css">
+    <script type="module" src="/scripts/adminPanel.js"></script>
+</head>
+<body class="container mt-4">
+    <h1 id="rs-name" class="text-center"></h1>
+    <div id="rs-info" class="mb-4">
+        <div class="editable-field">
+            <label for="rs-name-input">Название ресурсного сервера:</label>
+            <input type="text" id="rs-name-input" class="form-control" oninput="checkRSChanges()">
+        </div>
+        <div class="editable-field">
+            <label for="rs-type-select">Тип ресурсного сервера:</label>
+            <select id="rs-type-select" class="form-control" onchange="checkRSChanges()">
+                <option value="RBAC_BY_AS">RBAC управляется сервером авторизации</option>
+                <option value="RS_CONTROLLED">Управляется ресурсным сервером</option>
+            </select>
+        </div>
+        <button class="btn btn-success btn-sm mt-2 hidden" id="save-rs-btn" onclick="saveRS()">Сохранить</button>
+    </div>
+
+    <h3>Роли ресурсного сервера</h3>
+    <div id="roles-container" class="row">
+        <div id="empty-roles-message" class="empty-roles-message col-12 hidden">
+            Нет созданных ролей. Нажмите "Добавить роль", чтобы создать первую.
+        </div>
+    </div>
+
+    <div id="new-role-section" class="new-role-section hidden">
+        <h4>Новая роль</h4>
+        <div class="editable-field">
+            <label for="new-role-name">Название роли:</label>
+            <input type="text" id="new-role-name" class="form-control">
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="new-role-is-base">
+            <label class="form-check-label">Базовая роль</label>
+        </div>
+        <div class="editable-field">
+            <label>Доступы:</label>
+            <div id="new-role-scopes"></div>
+            <button class="btn btn-secondary btn-sm mt-2" onclick="addNewScopeField()">Добавить доступ</button>
+        </div>
+        <div class="action-buttons">
+            <button class="btn btn-success" onclick="confirmNewRole()">Создать роль</button>
+            <button class="btn btn-danger" onclick="cancelNewRole()">Отмена</button>
+        </div>
+    </div>
+
+    <button class="btn btn-primary mt-3" id="add-role-btn" onclick="showNewRoleSection()">Добавить роль</button>
+
+    <script src="/scripts/resourceServer.js"></script>
+</body>
+</html>

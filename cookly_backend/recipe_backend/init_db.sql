@@ -1,0 +1,3 @@
+CREATE DATABASE recipes;
+
+GRANT ALL PRIVILEGES ON DATABASE recipes TO postgres;

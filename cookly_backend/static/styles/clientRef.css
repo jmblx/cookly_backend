@@ -1,0 +1,365 @@
+/* clientRef.css */
+
+#client-ref-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#client-ref-form .form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+#client-info-section {
+    border-left: 4px solid #0d6efd;
+}
+
+#selected-rs-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.selected-rs-item {
+    background-color: #e9ecef;
+    border: 1px solid #dee2e6;
+    border-radius: 20px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.2s ease;
+}
+
+.selected-rs-item:hover {
+    background-color: #dde2e6;
+    transform: translateY(-1px);
+}
+
+.selected-rs-item .rs-name {
+    font-weight: 500;
+}
+
+.selected-rs-item .remove-rs {
+    background: none;
+    border: none;
+    color: #dc3545;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    padding: 0 4px;
+    transition: color 0.2s;
+}
+
+.selected-rs-item .remove-rs:hover {
+    color: #a71d2a;
+}
+
+/* ===== Стили для панели поиска ===== */
+
+.search-icon-container {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    z-index: 10;
+}
+
+.search-panel-icon {
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group input {
+    padding-right: 40px !important;
+}
+
+/* Контейнер для результатов поиска */
+.search-results-container {
+    position: absolute;
+    top: 100%; /* Прямо под полем ввода */
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+    margin-top: -1px; /* Убираем двойную границу */
+}
+
+/* Показываем результаты */
+.search-results-container.show {
+    display: block;
+}
+
+/* Элемент результата поиска */
+.search-result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.search-result-item:hover {
+    background-color: #f8f9fa;
+}
+
+.search-result-item:active {
+    background-color: #e9ecef;
+}
+
+.search-result-item:last-child {
+    border-bottom: none;
+}
+
+/* Индикатор кликабельности всей строки */
+.search-result-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.search-result-content {
+    flex-grow: 1;
+    position: relative;
+    z-index: 2; /* Чтобы текст был поверх псевдоэлемента */
+}
+
+.search-result-name {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.search-result-id {
+    font-size: 0.85em;
+    color: #6c757d;
+}
+
+.search-add-btn {
+    flex-shrink: 0;
+    margin-left: 10px;
+    white-space: nowrap;
+    position: relative;
+    z-index: 3; /* Чтобы кнопка была поверх псевдоэлемента */
+    transition: all 0.2s ease;
+}
+
+.search-add-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Стиль для уже выбранного элемента */
+.search-result-item.selected {
+    background-color: #e8f5e8 !important;
+}
+
+/* Сообщения об ошибках и пустых результатах */
+.search-no-results,
+.search-error {
+    padding: 20px;
+    text-align: center;
+    color: #6c757d;
+    font-style: italic;
+}
+
+.search-error {
+    color: #dc3545;
+}
+
+/* Анимация появления */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.search-results-container.show {
+    animation: fadeIn 0.2s ease-out;
+}
+
+/* ===== Конец стилей для панели поиска ===== */
+
+.selected-items-container {
+    min-height: 60px;
+    border: 1px dashed #ced4da;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+    transition: border-color 0.2s;
+}
+
+.selected-items-container.empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    font-style: italic;
+}
+
+.selected-items-container:not(.empty):hover {
+    border-color: #adb5bd;
+}
+
+/* Форма и поля */
+.form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+#ref-name-input {
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+/* Кнопки */
+#save-ref-btn {
+    min-width: 150px;
+    padding: 10px 20px;
+    transition: all 0.2s ease;
+}
+
+#save-ref-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#delete-ref-btn {
+    min-width: 150px;
+    padding: 10px 20px;
+    transition: all 0.2s ease;
+}
+
+#delete-ref-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#back-to-client-btn {
+    border: 1px solid #6c757d;
+    transition: all 0.2s ease;
+}
+
+#back-to-client-btn:hover {
+    background-color: #6c757d;
+    color: white;
+    transform: translateY(-1px);
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    #client-ref-container {
+        padding: 10px;
+    }
+
+    #client-ref-form {
+        padding: 15px !important;
+    }
+
+    .d-flex.justify-content-between {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #delete-ref-btn, #save-ref-btn {
+        width: 100%;
+    }
+
+    /* На мобильных делаем результаты поиска фиксированной ширины */
+    .search-results-container {
+        left: 0;
+        right: 0;
+        max-height: 50vh;
+    }
+}
+
+/* Анимации для формы */
+@keyframes formFadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#client-ref-form {
+    animation: formFadeIn 0.3s ease-out;
+}
+
+.selected-rs-item {
+    animation: fadeIn 0.2s ease-out;
+}
+
+/* Состояния валидации */
+.is-invalid {
+    border-color: #dc3545 !important;
+}
+
+.is-valid {
+    border-color: #198754 !important;
+}
+
+.invalid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    color: #dc3545;
+}
+
+/* Стиль для пустого списка выбранных RS */
+.empty-selection {
+    text-align: center;
+    padding: 20px;
+    color: #6c757d;
+    font-style: italic;
+}
+
+/* Убираем скругление у поля ввода сверху при показе результатов */
+.input-group input:focus {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* Стиль для контейнера поиска */
+.search-container {
+    position: relative;
+    margin-bottom: 0;
+}
+
+/* Индикатор курсора для кликабельных элементов */
+.search-result-item,
+.selected-rs-item,
+.search-add-btn {
+    cursor: pointer;
+}
+
+/* Эффект при нажатии */
+.search-result-item:active,
+.selected-rs-item:active,
+.search-add-btn:active {
+    transform: translateY(0) scale(0.98);
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://yastatic.net/s3/passport-sdk/autofill/v1/sdk-suggest-token-with-polyfills-latest.js"></script>
+</head>
+<body>
+<script>
+(function () {
+    const hash = window.location.hash.substring(1);
+    const params = new URLSearchParams(hash);
+    const token = params.get('access_token');
+
+    if (!token) return;
+
+    // отправка токена в родительское окно (если есть)
+    if (window.opener) {
+        window.opener.postMessage({ access_token: token }, '*');
+        window.close();
+        return;
+    }
+
+    alert(params);
+    window.location.href = `/pages/login.html#yandex_token=${token}`;
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f6f5f7;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.code-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.code-inputs input {
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.modal-footer {
+    justify-content: space-between;
+}
+
+.progress {
+    height: 5px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    transition: width 0.3s;
+}
+
+.step {
+    display: none;
+}
+
+.step.active {
+    display: block;
+}
+
