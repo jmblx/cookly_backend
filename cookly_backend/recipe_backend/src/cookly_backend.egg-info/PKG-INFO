@@ -19,6 +19,7 @@ Requires-Dist: pyjwt[crypto]==2.10.1
 Requires-Dist: aiohttp>=3.13.5
 Requires-Dist: minio>=7.2.20
 Requires-Dist: pillow>=12.2.0
+Requires-Dist: tzdata>=2026.2
 Provides-Extra: dev
 Requires-Dist: setuptools<76.0.0,>=75.2.0; extra == "dev"
 Requires-Dist: autoflake<3.0.0,>=2.3.1; extra == "dev"

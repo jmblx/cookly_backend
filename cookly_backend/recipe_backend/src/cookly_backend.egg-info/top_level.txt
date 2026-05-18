@@ -3,3 +3,4 @@ core
 domain
 infrastructure
 presentation
+tests

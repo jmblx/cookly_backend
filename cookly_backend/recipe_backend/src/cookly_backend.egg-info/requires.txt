@@ -14,6 +14,7 @@ pyjwt[crypto]==2.10.1
 aiohttp>=3.13.5
 minio>=7.2.20
 pillow>=12.2.0
+tzdata>=2026.2
 
 [dev]
 setuptools<76.0.0,>=75.2.0
