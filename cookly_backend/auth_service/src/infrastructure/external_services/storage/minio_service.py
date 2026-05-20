@@ -82,7 +82,7 @@ class MinIOService(StorageService):
                 expires=timedelta(minutes=5),
             )
             presigned_url = presigned_url.replace(
-                "minio:9000", os.getenv("HOST_ADDRESS")
+                "http://minio:9000", os.getenv("HOST_ADDRESS")
             )
 
             return presigned_url
