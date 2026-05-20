@@ -10,6 +10,9 @@ x-logging:
       - regex:
           expression: '^(?P<time>\d{4}-\d{2}-\d{2} \d{1,2}:\d{2}:\d{2},d{3}) (?P<message>(?s:.*))$$'
 
+
+name: auth-service
+
 services:
   db:
     image: postgres:17

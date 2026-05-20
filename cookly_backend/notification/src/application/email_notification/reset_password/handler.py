@@ -15,7 +15,7 @@ class ResetPasswordHandler:
 
     async def handle(self, command: ResetPasswordCommand):
         body = f"""
-        Код на смену пароля в OpenID Provider:
+        Код на смену пароля в Cookly:
         {command.reset_password_token}
         его срок действия - 15 минут
         если не вы запросили код, то возможно к вашему аккаунту пытаются

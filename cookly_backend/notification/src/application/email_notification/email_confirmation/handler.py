@@ -17,7 +17,7 @@ class EmailConfirmationHandler:
 
     async def handle(self, command: EmailConfirmationCommand):
         body = f"""
-        Код подтверждения почты в OpenID Provider:
+        Код подтверждения почты в Cookly:
         {command.email_confirmation_token}
         """
         await self.smtp_service.send_email(command.email, "Подтверждение почты", body)

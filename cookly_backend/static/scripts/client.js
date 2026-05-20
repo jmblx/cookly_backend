@@ -46,7 +46,7 @@ async function fetchClientData(clientId) {
         loadAvatar = true;
     }
 
-    const url = `/api/client/${clientId}?load_avatar=${loadAvatar}`;
+    const url = `/api/client/${clientId}?load_avatar=true`;
     try {
         const response = await fetch(url);
         if (!response.ok) throw new Error(`Ошибка загрузки клиента: ${response.status}`);

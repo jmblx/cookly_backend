@@ -1,4 +1,3 @@
-# Rinh-hack. RNDSOFT
 ## Процесс разработки
 ### Создания виртуального окружения
 #### win
@@ -27,15 +26,5 @@ alembic upgrade head
 ```
 ### Реформат кода по pep8
 ```shell
-black --config pyproject.toml . 
+ruff check . --fix
 ```
-## Продакшн
-### Развертывание всех контейнеров:
-```shell
-docker-compose up -d
-```
-## ER-диаграмма:
-![ER Diagram](ER.jpg)
-
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%&lines=EGOR+YBICA)✨ Developer 2024 🎉](https://github.com/Zagidin)
