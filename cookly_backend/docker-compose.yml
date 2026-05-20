@@ -248,24 +248,6 @@ services:
     restart: unless-stopped
     logging: *default-logging
 
-#  vector:
-#    profiles: [ "grafana" ]
-#    image: timberio/vector:0.29.1-alpine
-#    container_name: backend_service.vector
-#    hostname: backend_service.vector
-#    restart: unless-stopped
-#    expose:
-#      - "8383"
-#    networks:
-#      - backend_service.grafana.network
-#    volumes:
-#      - /var/run/docker.sock:/var/run/docker.sock:ro
-#      - ./vector/vector.toml:/etc/vector/vector.toml:ro
-#    logging:
-#      driver: "json-file"
-#      options:
-#        max-size: "10m"
-
   prometheus:
     profiles: [ "grafana" ]
     image: prom/prometheus:v2.43.0
